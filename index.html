@@ -10,25 +10,26 @@
             <div class="tbl-wndw">
                 <h3>HOME</h3>
                 <div class="tableau">
-                    <p> Score</p>
+                    <p id="count-elH">0</p>
                 </div>
                     <div class="tbl-btn">
-                        <button id="one" >+1</button>
-                        <button id="two">+2</button>
-                        <button id="three">+3</button>
+                        <button id="one" onclick="hone()">+1</button>
+                        <button id="two"  onclick="htwo()">+2</button>
+                        <button id="three" onclick="hthree()">+3</button>
                     </div>
             </div>
             <div class="tbl-wndw">
                 <h3>AWAY</h3>
                 <div class="tableau">
-                    <p> Score</p>
+                    <p id="count-elA">0</p>
                 </div>
                     <div class="tbl-btn">
-                        <button id="one">+1</button>
-                        <button id="two">+2</button>
-                        <button id="three">+3</button>
+                        <button id="one" onclick="aone()">+1</button>
+                        <button id="two" onclick="atwo()">+2</button>
+                        <button id="three" onclick="athree()">+3</button>
                     </div>
             </div>
+            <button id="reset" onclick="reset()">RESET</button>
         </div>
         <script src="index.js"></script>
     </body>
